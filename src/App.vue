@@ -62,8 +62,19 @@ const pauseAudio = () => {
   </div>
   
   <div class="p-12 flex justify-evenly items-center">
-    <button class="btn btn-outline btn-accent " type="button" @click="runSpeechRecognition()">Hacele una pregunta a Lupe</button>
-    <button class="btn btn-outline btn-accent" type="button" @click="pauseAudio()">&#x2016;</button>
+    <button 
+      class="btn btn-outline btn-accent" 
+      type="button" @click="runSpeechRecognition()"
+    >
+      Hacele una pregunta a Lupe
+    </button>
+    <button 
+      class="btn btn-outline btn-accent" 
+      type="button" 
+      @click="pauseAudio()"
+    >
+      &#x2016;
+    </button>
   </div>
 
   <div class="chat chat-start pl-12 pt-10" v-if="output">
@@ -107,5 +118,4 @@ canvas {
   left: 0;
   right: 0;
 }
-
 </style>
