@@ -1,29 +1,21 @@
-# voice-gpt
+# Voice GPT - Vue.js - Express.js - AWS
 
-This template should help get you started developing with Vue 3 in Vite.
+## Descripción del Proyecto
 
-## Recommended IDE Setup
+Este proyecto muestra cómo integrar el modelo GPT-3 de OpenAI y el servicio de síntesis de voz AWS Polly para permitir que el chatbot responda con mensajes de voz. El frontend está hecho con Vue.js, pero la parte clave está en el backend, donde implemento Express.js. Actúa como intermediario entre la API de OpenAI y AWS Polly para generar respuestas en voz. En otras palabras, el texto proporcionado por la API de OpenAI es finalmente sintetizado por el servicio de Polly.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Tecnologías Utilizadas
 
-## Customize configuration
+- Vue.js: Framework de JavaScript para la construcción del frontend.
+- Express.js: Framework de Node.js para la implementación del backend.
+- OpenAI GPT-3: Modelo de lenguaje para generar respuestas basadas en texto.
+- AWS Polly: Servicio de Amazon Web Services para convertir texto en voz.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Referencias
 
-## Project Setup
+- OpenAI GPT-3: [https://beta.openai.com/](https://beta.openai.com/)
+- AWS Polly: [https://aws.amazon.com/polly/](https://aws.amazon.com/polly/)
 
-```sh
-npm install
-```
+## Preview
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+![](https://github.com/ValentinoGhitti/Voice-GPT-Vue/blob/Main/public/preview-img.png)
